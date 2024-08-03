@@ -1,11 +1,16 @@
+.wrapper {
+  border-bottom: 1px solid #865d36;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
   padding: 1em;
+  gap: 1em;
+  font-size: 0.8em;
 }
 .navbar {
   display: flex;
