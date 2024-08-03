@@ -1,0 +1,16 @@
+/* Button.module.css */
+.button {
+  background-color: var(--button-background-color);
+  border: none;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: white;
+  color: var(--button-background-color);
+}
