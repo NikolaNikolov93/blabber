@@ -36,7 +36,7 @@ const Navbar = () => {
           <div className={styles.hamburger}>
             <Hamburger isClicked={isClicked} setIsClicked={setIsClicked} />
           </div>
-          <div>
+          <div className={styles.sidebar}>
             <Sidebar isClicked={isClicked} setIsClicked={setIsClicked} />
           </div>
         </div>

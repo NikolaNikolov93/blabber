@@ -8,7 +8,11 @@ interface SidebarProps {
 const Sidebar: React.FC<SidebarProps> = ({ isClicked, setIsClicked }) => {
   return (
     <>
-      <ul className={`${styles.wrapper} ${isClicked ? styles.active : ""}`}>
+      <ul
+        className={`${styles.wrapper} ${
+          isClicked ? styles.active : styles.inactive
+        }`}
+      >
         <li>
           <Link href="/about" onClick={() => setIsClicked(false)}>
             <p>About Us</p>
