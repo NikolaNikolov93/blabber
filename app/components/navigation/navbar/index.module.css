@@ -17,3 +17,15 @@
   flex-wrap: wrap;
   gap: 1em;
 }
+.hamburger {
+  display: none;
+}
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    margin-left: auto;
+  }
+}

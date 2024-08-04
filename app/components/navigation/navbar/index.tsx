@@ -1,10 +1,15 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import Logo from "./logo/Logo";
 import Button from "./button/Button";
 import styles from "./index.module.css";
+import Hamburger from "./hamburger/Hamburger";
+import Sidebar from "../sidebar/Sidebar";
 
 const Navbar = () => {
+  const [isClicked, setIsClicked] = useState(false);
+
   return (
     <>
       <div className={styles.wrapper}>
@@ -28,6 +33,12 @@ const Navbar = () => {
             </li>
           </ul>
           <Button />
+          <div className={styles.hamburger}>
+            <Hamburger isClicked={isClicked} setIsClicked={setIsClicked} />
+          </div>
+          <div>
+            <Sidebar isClicked={isClicked} setIsClicked={setIsClicked} />
+          </div>
         </div>
       </div>
     </>
