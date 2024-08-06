@@ -1,0 +1,40 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2em;
+}
+.formWrapper .signInForm {
+  display: flex;
+  flex-direction: column;
+}
+.signInForm {
+  gap: 1em;
+}
+.formInput {
+  width: 50%;
+  align-self: center;
+  border: none;
+  background-color: var(--site-background);
+  border-bottom: 2px solid var(--main-text-color);
+  padding: 1em;
+  outline: none;
+}
+.formInput:focus {
+  border-bottom-color: var(--button-background-color);
+}
+.formInput::placeholder {
+  color: var(--main-text-color);
+}
+.submitButton {
+  padding: 1em;
+  width: 10%;
+  align-self: center;
+  border: none;
+  transition-duration: 0.4s;
+  background-color: var(--main-text-color);
+  color: var(--site-background);
+}
+.submitButton:hover {
+  background-color: var(--button-background-color);
+}

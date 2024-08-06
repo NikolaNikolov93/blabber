@@ -2,7 +2,6 @@
 .button {
   background-color: var(--button-background-color);
   border: none;
-  border-radius: 6px;
   color: white;
   padding: 1em;
   text-align: center;

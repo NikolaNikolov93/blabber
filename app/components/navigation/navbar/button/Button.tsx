@@ -1,10 +1,13 @@
 "use client";
+import Link from "next/link";
 import styles from "./Button.module.css";
 
 const Button = () => {
   return (
     <>
-      <button className={styles.button}>Sign in</button>
+      <Link href="/login" className={styles.button}>
+        Login
+      </Link>
     </>
   );
 };

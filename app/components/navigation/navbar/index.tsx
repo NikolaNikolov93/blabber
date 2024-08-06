@@ -18,12 +18,12 @@ const Navbar = () => {
           <ul className={styles.navbar}>
             <li>
               <Link href="/about">
-                <p>About Us</p>
+                <p>About</p>
               </Link>
             </li>
             <li>
-              <Link href="/services">
-                <p>Services</p>
+              <Link href="/recepies">
+                <p>Recepies</p>
               </Link>
             </li>
             <li>
