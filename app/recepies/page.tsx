@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./page.module.css";
 
-const Services = () => {
+const Recepies = () => {
   return (
     <div className={styles.container}>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum doloremque
@@ -51,4 +51,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Recepies;
