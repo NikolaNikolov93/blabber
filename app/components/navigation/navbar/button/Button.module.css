@@ -13,9 +13,10 @@
 }
 
 .button:hover {
-  background-color: white;
+  background-color: #533a2d;
   color: var(--button-background-color);
 }
+
 @media (max-width: 768px) {
   .button {
     margin-left: 0;

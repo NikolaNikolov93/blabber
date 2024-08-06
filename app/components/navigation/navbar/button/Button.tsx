@@ -1,8 +1,12 @@
-import React from "react";
+"use client";
 import styles from "./Button.module.css";
 
 const Button = () => {
-  return <button className={styles.button}>Sign in</button>;
+  return (
+    <>
+      <button className={styles.button}>Sign in</button>
+    </>
+  );
 };
 
 export default Button;
