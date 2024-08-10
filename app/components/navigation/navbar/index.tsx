@@ -17,13 +17,13 @@ const Navbar = () => {
           <Logo />
           <ul className={styles.navbar}>
             <li>
-              <Link href="/about">
-                <p>About</p>
+              <Link href="/recepies">
+                <p>Recepies</p>
               </Link>
             </li>
             <li>
-              <Link href="/recepies">
-                <p>Recepies</p>
+              <Link href="/about">
+                <p>About</p>
               </Link>
             </li>
             <li>

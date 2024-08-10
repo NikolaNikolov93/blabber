@@ -19,13 +19,13 @@ const Sidebar: React.FC<SidebarProps> = ({ isClicked, setIsClicked }) => {
           </Link>
         </li>
         <li>
-          <Link href="/services" onClick={() => setIsClicked(false)}>
-            <p>Services</p>
+          <Link href="/contacts" onClick={() => setIsClicked(false)}>
+            <p>Contacts</p>
           </Link>
         </li>
         <li>
-          <Link href="/contacts" onClick={() => setIsClicked(false)}>
-            <p>Contacts</p>
+          <Link href="/recepies" onClick={() => setIsClicked(false)}>
+            <p>Recepies</p>
           </Link>
         </li>
       </ul>

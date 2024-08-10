@@ -11,12 +11,14 @@ const page = () => {
             type="text"
             className={styles.formInput}
             placeholder="Username"
+            autoComplete="username"
             required
           />
           <input
             type="password"
             className={styles.formInput}
             placeholder="Password"
+            autoComplete="password"
             required
           />
           <button type="submit" className={styles.submitButton}>

@@ -1,5 +1,19 @@
+.wrapper {
+  background-image: url("../public/hero-bckg.jpg"); /* Path to the image */
+  background-size: cover; /* Make sure the image covers the container */
+  background-position: center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 80vh;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1em;
+  position: relative;
+  height: 80vh;
+}
+.headline {
+  position: absolute;
+  bottom: 2em;
+  left: 1em;
 }
